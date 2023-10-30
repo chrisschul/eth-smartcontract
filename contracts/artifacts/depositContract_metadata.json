@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_depositAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountToDeposit",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Deposit.sol": "depositContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Deposit.sol": {
+			"keccak256": "0x5c23ae9744b319a6366bbbc448a22631f12202ea66e7e8b690abdfa43e4fad29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f425d737072028f8afeaf1c39dbc1b813f46950a7f7211acbcee48cbad0ac21a",
+				"dweb:/ipfs/QmQoU2Pz7aJqAbcePhP5fKZWWMCdvA2yZiLF5BFhB4zVne"
+			]
+		}
+	},
+	"version": 1
+}
